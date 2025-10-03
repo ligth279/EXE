@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Assistant Extension",
+  "version": "0.1.0",
+  "description": "Multi-role Chrome extension skeleton for an AI assistant.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["https://*/*"],
+  "action": {
+    "default_popup": "ui-ux-engineer/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "integration-engineer/background.js"
+  },
+  "icons": {
+    "48": "icons/icon48.png"
+  }
+}
