@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Store the Gemini API key securely in environment variable in production
-const GEMINI_API_KEY = 'AIzaSyBUX5_piNzdO0DBnIxUuIki2450_7Am-bY';
+const GEMINI_API_KEY = 'hereaddapikey';
 
 app.use(bodyParser.json());
 
